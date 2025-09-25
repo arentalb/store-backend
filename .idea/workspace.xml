@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c54fb6a2-70de-4312-9269-ba213ad3c579" name="Changes" comment="Some updates">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3ff2765e-36ad-49be-871f-326df6cd312b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3ff2765e-36ad-49be-871f-326df6cd312b.xml" afterDir="false" />
+    <list default="true" id="7c553b5d-5c59-4c4c-894d-53e2b32b23f6" name="Changes" comment="Add deploy">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3ff2765e-36ad-49be-871f-326df6cd312b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_18_2024_4_32_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_18_2024_4_32_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_18_2024_4_32_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_18_2024_4_33_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_18_2024_4_33_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_18_2024_4_33_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_9_2024_9_51_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_9_2024_9_51_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/store-back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/store-backend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -35,633 +37,63 @@
     "assignee": "arentalb"
   }
 }]]></component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="5" />
-  </component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/arentalb/store-back.git",
     "accountId": "b1ff93ff-8973-48f9-b57f-f11a3b272e98"
   }
 }]]></component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="OptimizeOnSaveOptions">
-    <option name="myRunOnSave" value="true" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="2gQ7D1sP7YQWwjqrSyHYbtKEo2p" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="33CFSxTDkOxcYruU86Sc9mBBGdu" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="useFileNestingRules" value="false" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "code.cleanup.on.save": "true",
+    "SHELLCHECK.PATH": "C:\\Users\\Click\\AppData\\Roaming\\JetBrains\\WebStorm2025.1\\plugins\\Shell Script\\shellcheck.exe",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Documents/code/completed project/store/store-back",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/Development/Completed-Projects/store-backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "npm.start:dev.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Click\\Documents\\devlopment\\fullstack\\practice\\pracice-back\\node_modules\\prettier",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mongo"
-    ]
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Click\Documents\devlopment\fullstack\store\store-back" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Documents\code\completed project\store\store-back" />
-      <recent name="C:\Users\Click\AppData\Roaming\JetBrains\WebStorm2023.1\scratches\envs\backedn" />
-      <recent name="C:\Users\Click\AppData\Roaming\JetBrains\WebStorm2023.1\scratches" />
-      <recent name="C:\Users\Click\Documents\devlopment\fullstack\practice\pracice-back" />
-      <recent name="C:\Users\Click\Documents\devlopment\fullstack\practice\pracice-back\src\middlwares" />
-    </key>
-  </component>
-  <component name="RunManager" selected="npm.start:dev">
-    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start:dev" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start:dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="npm.start:dev" />
-      <item itemvalue="npm.start" />
-    </list>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.27812.50" />
       </set>
     </attachedChunks>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c54fb6a2-70de-4312-9269-ba213ad3c579" name="Changes" comment="" />
-      <created>1715617824532</created>
+      <changelist id="7c553b5d-5c59-4c4c-894d-53e2b32b23f6" name="Changes" comment="" />
+      <created>1749144430476</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1715617824532</updated>
-      <workItem from="1715617825856" duration="17000" />
-      <workItem from="1715617862858" duration="8000" />
-      <workItem from="1715619480018" duration="3257000" />
-      <workItem from="1715680543710" duration="1326000" />
-      <workItem from="1715682838045" duration="517000" />
-      <workItem from="1715688520095" duration="506000" />
-      <workItem from="1715694734263" duration="2991000" />
-      <workItem from="1715715563535" duration="2073000" />
-      <workItem from="1715758683471" duration="773000" />
-      <workItem from="1715760881526" duration="3370000" />
-      <workItem from="1715765604716" duration="7783000" />
-      <workItem from="1715804450328" duration="2328000" />
-      <workItem from="1715853444866" duration="14468000" />
-      <workItem from="1715871002888" duration="1479000" />
-      <workItem from="1715936093325" duration="6467000" />
-      <workItem from="1715975507420" duration="566000" />
-      <workItem from="1715988132549" duration="6000" />
-      <workItem from="1716002269244" duration="462000" />
-      <workItem from="1716025653493" duration="345000" />
-      <workItem from="1716229529775" duration="202000" />
-      <workItem from="1716229752609" duration="16000" />
-      <workItem from="1716287735549" duration="19298000" />
-      <workItem from="1716325338464" duration="770000" />
-      <workItem from="1716378619696" duration="3091000" />
-      <workItem from="1716384528467" duration="15618000" />
-      <workItem from="1716466490914" duration="11530000" />
-      <workItem from="1716483036863" duration="904000" />
-      <workItem from="1716484295368" duration="6782000" />
-      <workItem from="1716501017168" duration="1116000" />
-      <workItem from="1716502162175" duration="4002000" />
-      <workItem from="1718010629218" duration="5689000" />
-      <workItem from="1718034857451" duration="1905000" />
-      <workItem from="1718059987007" duration="5719000" />
-      <workItem from="1718109308151" duration="4140000" />
-      <workItem from="1718205421470" duration="1546000" />
-      <workItem from="1718237378771" duration="1253000" />
-      <workItem from="1718246652395" duration="7000" />
-      <workItem from="1718274050967" duration="11671000" />
-      <workItem from="1718322360895" duration="5997000" />
-      <workItem from="1718372140659" duration="1857000" />
-      <workItem from="1718452328835" duration="7060000" />
-      <workItem from="1718650028653" duration="3655000" />
-      <workItem from="1718710495131" duration="2656000" />
-      <workItem from="1718731185441" duration="304000" />
-      <workItem from="1718733168159" duration="49000" />
-      <workItem from="1718733344167" duration="2326000" />
-      <workItem from="1718755442011" duration="10821000" />
-      <workItem from="1718805981768" duration="6443000" />
-      <workItem from="1718846271391" duration="3169000" />
-      <workItem from="1718900434301" duration="93000" />
-      <workItem from="1719107088780" duration="1599000" />
-      <workItem from="1719235505161" duration="2288000" />
-      <workItem from="1719492244889" duration="2554000" />
-      <workItem from="1719496796899" duration="3000" />
-      <workItem from="1719497091182" duration="1720000" />
-      <workItem from="1719534080412" duration="3352000" />
-      <workItem from="1719571392932" duration="11000" />
-      <workItem from="1719625356386" duration="1987000" />
-      <workItem from="1719671971872" duration="54000" />
-      <workItem from="1719749573978" duration="1309000" />
-      <workItem from="1720440331288" duration="1023000" />
-      <workItem from="1720442870941" duration="2396000" />
-      <workItem from="1720677104085" duration="10000" />
-      <workItem from="1720684265901" duration="849000" />
-      <workItem from="1720704354085" duration="8000" />
-      <workItem from="1720968147824" duration="37000" />
-      <workItem from="1721648112685" duration="404000" />
-      <workItem from="1721648771167" duration="1376000" />
-      <workItem from="1721741091826" duration="49000" />
-      <workItem from="1722084968635" duration="902000" />
-      <workItem from="1722234167791" duration="8000" />
-      <workItem from="1724167857710" duration="3452000" />
-      <workItem from="1732132411953" duration="4174000" />
-      <workItem from="1732213188316" duration="733000" />
-      <workItem from="1732281039866" duration="1705000" />
-      <workItem from="1732381628605" duration="1888000" />
-      <workItem from="1732447713502" duration="582000" />
-      <workItem from="1732537064232" duration="24000" />
-      <workItem from="1732634255509" duration="392000" />
-      <workItem from="1732634671658" duration="32000" />
-      <workItem from="1732635582745" duration="1638000" />
-      <workItem from="1732739889506" duration="1253000" />
-      <workItem from="1733082819397" duration="845000" />
-      <workItem from="1733083901073" duration="57000" />
-      <workItem from="1733165691290" duration="578000" />
-      <workItem from="1733167382051" duration="2624000" />
-      <workItem from="1733324882505" duration="591000" />
-      <workItem from="1742064081044" duration="599000" />
+      <updated>1749144430476</updated>
+      <workItem from="1758813153478" duration="449000" />
     </task>
-    <task id="LOCAL-00001" summary="IDE configuration files">
-      <option name="closed" value="true" />
-      <created>1715719048277</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1715719048277</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Fix a bug">
-      <option name="closed" value="true" />
-      <created>1715719059630</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1715719059630</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Implement the category functionalities">
-      <option name="closed" value="true" />
-      <created>1715789602563</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1715789602563</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Reformat files">
-      <option name="closed" value="true" />
-      <created>1715804672650</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1715804672650</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Implement file uploading functionality">
-      <option name="closed" value="true" />
-      <created>1715857947741</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1715857947741</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Change file structure">
-      <option name="closed" value="true" />
-      <created>1715858090011</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1715858090011</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Implement file upload with CRUD operation for products">
-      <option name="closed" value="true" />
-      <created>1716314014428</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1716314014428</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Implement getting newest products">
-      <option name="closed" value="true" />
-      <created>1716386707803</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1716386707803</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Implement getting all products for a category">
-      <option name="closed" value="true" />
-      <created>1716394115456</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1716394115456</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Implement CRUD for cart functionality">
-      <option name="closed" value="true" />
-      <created>1716402618299</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1716402618299</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Implement CRUD for cart functionality">
-      <option name="closed" value="true" />
-      <created>1716406705547</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1716406705547</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Implement order functionality">
-      <option name="closed" value="true" />
-      <created>1716408987865</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1716408987865</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Implement order functionality in admin">
-      <option name="closed" value="true" />
-      <created>1716467932692</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1716467932692</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Implement order functionality in user">
-      <option name="closed" value="true" />
-      <created>1716473329749</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1716473329749</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Add data and data script">
-      <option name="closed" value="true" />
-      <created>1716480532136</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1716480532136</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Add test route to check if server is up">
-      <option name="closed" value="true" />
-      <created>1716483953303</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1716483953303</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Add cors to let teh frontend access the server">
-      <option name="closed" value="true" />
-      <created>1716508639952</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1716508639953</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Change the option of teh jwt in production">
-      <option name="closed" value="true" />
-      <created>1716509082174</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1716509082174</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Fix some bug">
-      <option name="closed" value="true" />
-      <created>1717965107459</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1717965107459</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Add some changes to not verified users">
-      <option name="closed" value="true" />
-      <created>1718017899375</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1718017899375</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Fix some bug">
-      <option name="closed" value="true" />
-      <created>1718067139671</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1718067139671</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Fix some bug">
-      <option name="closed" value="true" />
-      <created>1718299726321</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1718299726321</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Fix some bug">
-      <option name="closed" value="true" />
-      <created>1718326554288</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1718326554288</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Add isVerified middleware to those routes that need to their user to be verified">
-      <option name="closed" value="true" />
-      <created>1718474586142</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1718474586142</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Fix some bug">
-      <option name="closed" value="true" />
-      <created>1718713906661</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1718713906661</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Some webstorm ide change">
-      <option name="closed" value="true" />
-      <created>1718731269701</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1718731269701</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Some webstorm ide change">
-      <option name="closed" value="true" />
-      <created>1718731451793</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1718731451793</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Add header for getting public directory images">
-      <option name="closed" value="true" />
-      <created>1718759891956</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1718759891956</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Set same site to none on the cookie">
-      <option name="closed" value="true" />
-      <created>1718761559786</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1718761559786</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Create sample env file for production and development">
-      <option name="closed" value="true" />
-      <created>1718762371134</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1718762371134</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Change the email sender to send email to gmail instead of mailtrap">
-      <option name="closed" value="true" />
-      <created>1718763473622</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1718763473622</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Make the email design and content to vary depending on the type of the email">
-      <option name="closed" value="true" />
-      <created>1718764166364</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1718764166364</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Make the email design and content to vary depending on the type of the email">
-      <option name="closed" value="true" />
-      <created>1718765189198</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1718765189198</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Rename order model file">
-      <option name="closed" value="true" />
-      <created>1718766695358</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1718766695358</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Add domain option to my cookies to check if it fixed not setting cookies on ios safary">
-      <option name="closed" value="true" />
-      <created>1718810249079</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1718810249079</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Remove maxAge and set secure to false  check if it fixed not setting cookies on ios safary">
-      <option name="closed" value="true" />
-      <created>1718811308599</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1718811308599</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Refactor my backend to use the access token and refresh token from localstorage">
-      <option name="closed" value="true" />
-      <created>1718813610682</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1718813610682</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Updated code with the appropriate status codes and removed console.log() statements">
-      <option name="closed" value="true" />
-      <created>1718851430378</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1718851430378</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Add postman collection file for all requests">
-      <option name="closed" value="true" />
-      <created>1718851493547</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1718851493547</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Update README.md">
-      <option name="closed" value="true" />
-      <created>1718851592710</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1718851592710</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Return more metrics to show them by chart in frontend">
-      <option name="closed" value="true" />
-      <created>1719107936773</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1719107936773</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Remove some unnecessary comments">
-      <option name="closed" value="true" />
-      <created>1719108427546</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1719108427546</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Remove some unnecessary comments">
-      <option name="closed" value="true" />
-      <created>1719108433056</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1719108433056</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Fix file upload function">
-      <option name="closed" value="true" />
-      <created>1732636174691</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1732636174691</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Fix the confirm email function">
-      <option name="closed" value="true" />
-      <created>1732740660530</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1732740660530</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Some updates">
-      <option name="closed" value="true" />
-      <created>1733172525207</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1733172525207</updated>
-    </task>
-    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="text">
-                    <value>
-                      <list>
-                        <option value="image" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add data and data script" />
-    <MESSAGE value="Add test route to check if server is up" />
-    <MESSAGE value="Add cors to let teh frontend access the server" />
-    <MESSAGE value="Change the option of teh jwt in production" />
-    <MESSAGE value="Add some changes to not verified users" />
-    <MESSAGE value="Add isVerified middleware to those routes that need to their user to be verified" />
-    <MESSAGE value="Fix some bug" />
-    <MESSAGE value="Some webstorm ide change" />
-    <MESSAGE value="Add header for getting public directory images" />
-    <MESSAGE value="Set same site to none on the cookie" />
-    <MESSAGE value="Create sample env file for production and development" />
-    <MESSAGE value="Change the email sender to send email to gmail instead of mailtrap" />
-    <MESSAGE value="Make the email design and content to vary depending on the type of the email" />
-    <MESSAGE value="Rename order model file" />
-    <MESSAGE value="Add domain option to my cookies to check if it fixed not setting cookies on ios safary" />
-    <MESSAGE value="Remove maxAge and set secure to false  check if it fixed not setting cookies on ios safary" />
-    <MESSAGE value="Refactor my backend to use the access token and refresh token from localstorage" />
-    <MESSAGE value="Updated code with the appropriate status codes and removed console.log() statements" />
-    <MESSAGE value="Add postman collection file for all requests" />
-    <MESSAGE value="Update README.md" />
-    <MESSAGE value="Return more metrics to show them by chart in frontend" />
-    <MESSAGE value="Remove some unnecessary comments" />
-    <MESSAGE value="Fix file upload function" />
-    <MESSAGE value="Fix the confirm email function" />
-    <MESSAGE value="Some updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some updates" />
+    <MESSAGE value="Add deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add deploy" />
   </component>
 </project>
