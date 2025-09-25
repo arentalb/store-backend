@@ -43,11 +43,11 @@ if [ ! -f "package.json" ]; then
     exit 1
 fi
 
-#echo "Installing dependencies..."
-#if ! npm install; then
-#    echo "ERROR: Dependency installation failed"
-#    exit 1
-#fi
+echo "Installing dependencies..."
+if ! npm install; then
+    echo "ERROR: Dependency installation failed"
+    exit 1
+fi
 
 #echo "Building project..."
 #if ! npm run build; then
